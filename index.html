@@ -47,34 +47,39 @@ section:last-child {
         <h3>Hey, there!</h3>
         <p>Welcome to a resumap! A resume can only say so much. <br><br>Resumaps are designed to add an interactive component to any resume. Use it to fill gaps in your resume.</p>
     </section>
-    <section id='LittleRock' class='active'>
-        <h3>Little Rock</h3>
+<section id='FirstJob' class='active'>
+        <h3>Bernard Holland Baseball</h3>
         <p>Text here</p>
     </section>
-    <section id='Benton'>
-        <h3>Benton</h3>
+    <section id='CherrysHallmark'>
+        <h3>Cherry's Hallmark</h3>
         <p>Text here</p>
     </section>
-    <section id='Ecuador'>
-        <h3>Ecuador</h3>
+    <section id='Hospital'>
+        <h3>Saline Memorial Hospital</h3>
         <p>Text here</p>
     </section>
     <section id='Conway'>
-        <h3>Conway</h3>
+        <h3>University of Central Arkansas</h3>
+        <p>Text here</p>
+    </section>
+    <section id='ARHRA'>
+        <h3>Arkansas Hunger Relief Alliance/ No Kid Hungry</h3>
         <p>Text here</p>
     </section>
     <section id='Italy'>
-        <h3>Italy</h3>
-        <p>Text here</p>
-    </section>
-    <section id='NewZealand'>
-        <h3>New Zealand</h3>
+        <h3>Study Abroad in Florence</h3>
         <p>Text here</p>
     </section>
     <section id='Boston'>
-        <h3>Boston</h3>
+        <h3>Boston University</h3>
         <p>Text here</p>
     </section>
+    <section id='Walden'>
+        <h3>Walden Behavioral Care</h3>
+        <p>Text here</p>
+    </section>
+
 </div>
 <script>
 mapboxgl.accessToken = 'pk.eyJ1IjoibWluaXRhY2tldHQiLCJhIjoiY2pndGZvM20yMGM5ZjJxbXJwcHFjcnM5cCJ9.7ODRJM1AZjM0TM5RsLRbuw';
@@ -95,53 +100,60 @@ var chapters = {
         speed: 1.8,
         pitch: 30
     },
-    'LittleRock': {
-        bearing: 0,
-        center: [-92.269396, 34.749327],
-        zoom: 11.00,
+        'FirstJob': {
+        bearing: -14,
+        center: [-92.607085, 34.552545],
+        zoom: 15.58,
         speed: 1.8,
-        pitch: 30
+        pitch: 32
     },
-    'Benton': {
-        bearing: 0,
-        center: [-92.583288, 34.570803],
-        zoom: 12.99,
+    'CherrysHallmark': {
+        bearing: -14,
+        center: [-92.573948, 34.578113],
+        zoom: 15.19,
         speed: 1.8,
-        pitch: 30
+        pitch: 32
     },
-    'Ecuador': {
+    'Hospital': {
         center: [-78.471875, -0.246126],
-        bearing: 0,
-        zoom: 11.79,
-        speed: 2,
-        pitch: 30
+        bearing: -70,
+        zoom: 16.19,
+        speed: 1.8,
+        pitch: 32
     },
     'Conway': {
         bearing: 0,
         center: [-92.455289, 35.078211],
         zoom: 13.18,
         speed: 1.8,
-        pitch: 30
+        pitch: 32
+    },
+    'ARHRA': {
+        bearing: 0,
+        center: [-92.287035, 43.34.750405],
+        zoom: 17.53,
+        speed: 2,
+        pitch: 32
     },
     'Italy': {
-        bearing: 0,
-        center: [11.257164, 43.768431],
-        zoom: 13.96,
-        speed: 2,
-        pitch: 30
-    },
-    'NewZealand': {
-        bearing: 0,
-        center: [176.113387, -38.799521],
-        zoom: 5.99,
+        bearing: 45,
+        center: [11.257701, 43.768043],
+        zoom: 15.65,
         speed: 1.8,
-        pitch: 30
+        pitch: 60
     },
     'Boston': {
-        bearing: 15.20,
-        center: [-71.077508, 42.350154],
-        zoom: 13.00,
-        pitch: 30,
+        bearing: -45.00,
+        center: [-71.100032, 42.350208],
+        zoom: 16.00,
+        pitch: 50,
+        speed: 2
+    },    
+    'Walden': {
+        bearing: -40.00,
+        center: [-71.248878, 42.369052],
+        zoom: 17.38,
+        pitch: 50,
         speed: 2
     },
 };
